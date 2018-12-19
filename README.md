@@ -13,7 +13,7 @@ Please install the `provision.yml` playbook first.
 
 Provide the `secondary_user` in the `db.yml`'s  `remote_user` for login.
 
-Please place the `server-ip` at the `hosts` block in the `db.yml` file.
+Please change the connection config at the `hosts` block in the `db.yml` file.
 
 The default is connecting to local machine.
 
