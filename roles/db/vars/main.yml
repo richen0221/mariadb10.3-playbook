@@ -1,0 +1,6 @@
+---
+# vars file for db
+# uncomment USE_XTRABACKUP for using MariaDB backup and keep 20 days backup data
+# USE_BACKUP: 20
+BACKUP_USER: backup
+BACKUP_USER_PASS: backup123
