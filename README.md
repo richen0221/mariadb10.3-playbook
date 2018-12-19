@@ -1,4 +1,4 @@
-MariaDB 10.1 with MariaDB backup
+MariaDB 10.3 with MariaDB backup
 =========
 
 This playbook will install MariaDB 10.1 and the MariaDB backup script on the host.
@@ -14,6 +14,8 @@ Please install the `provision.yml` playbook first.
 Provide the `secondary_user` in the `db.yml`'s  `remote_user` for login.
 
 Please place the `server-ip` at the `hosts` block in the `db.yml` file.
+
+The default is connecting to local machine.
 
 Role Variables
 --------------
